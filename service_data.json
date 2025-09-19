@@ -1,0 +1,175 @@
+{
+    "technicians": [
+        {
+            "id": "tech_01",
+            "name": "Asha K",
+            "skills": [
+                "wm_vibration",
+                "ac_leak"
+            ],
+            "appliances_supported": [
+                "WashingMachine",
+                "AC"
+            ],
+            "regions": [
+                "South",
+                "Central"
+            ],
+            "availability_slots": [
+                {
+                    "start": "2025-09-14T10:00:00+05:30",
+                    "end": "2025-09-14T12:00:00+05:30"
+                },
+                {
+                    "start": "2025-09-14T15:00:00+05:30",
+                    "end": "2025-09-14T16:00:00+05:30"
+                }
+            ]
+        },
+        {
+            "id": "tech_02",
+            "name": "Ravi S",
+            "skills": [
+                "fridge_cooling",
+                "tv_display"
+            ],
+            "appliances_supported": [
+                "Refrigerator",
+                "TV"
+            ],
+            "regions": [
+                "North",
+                "Central"
+            ],
+            "availability_slots": [
+                {
+                    "start": "2025-09-21T09:00:00+05:30",
+                    "end": "2025-09-21T11:00:00+05:30"
+                },
+                {
+                    "start": "2025-09-21T14:00:00+05:30",
+                    "end": "2025-09-21T16:00:00+05:30"
+                }
+            ]
+        },
+        {
+            "id": "tech_03",
+            "name": "Priya M",
+            "skills": [
+                "ac_airflow",
+                "waterpurifier_filter"
+            ],
+            "appliances_supported": [
+                "AC",
+                "WaterPurifier"
+            ],
+            "regions": [
+                "South",
+                "West"
+            ],
+            "availability_slots": [
+                {
+                    "start": "2025-09-22T10:30:00+05:30",
+                    "end": "2025-09-22T12:30:00+05:30"
+                },
+                {
+                    "start": "2025-09-22T15:30:00+05:30",
+                    "end": "2025-09-22T17:00:00+05:30"
+                }
+            ]
+        },
+        {
+            "id": "tech_04",
+            "name": "Vikram P",
+            "skills": [
+                "ac_airflow",
+                "wm_motor"
+            ],
+            "appliances_supported": [
+                "AC",
+                "WashingMachine"
+            ],
+            "regions": [
+                "West",
+                "North"
+            ],
+            "availability_slots": [
+                {
+                    "start": "2025-09-23T09:00:00+05:30",
+                    "end": "2025-09-23T11:00:00+05:30"
+                },
+                {
+                    "start": "2025-09-23T13:00:00+05:30",
+                    "end": "2025-09-23T15:00:00+05:30"
+                }
+            ]
+        },
+        {
+            "id": "tech_05",
+            "name": "Sneha R",
+            "skills": [
+                "fridge_cooling",
+                "waterpurifier_filter"
+            ],
+            "appliances_supported": [
+                "Refrigerator",
+                "WaterPurifier"
+            ],
+            "regions": [
+                "South",
+                "Central"
+            ],
+            "availability_slots": [
+                {
+                    "start": "2025-09-24T10:00:00+05:30",
+                    "end": "2025-09-24T12:00:00+05:30"
+                },
+                {
+                    "start": "2025-09-24T14:00:00+05:30",
+                    "end": "2025-09-24T16:00:00+05:30"
+                }
+            ]
+        },
+        {
+            "id": "tech_06",
+            "name": "Arjun T",
+            "skills": [
+                "tv_display",
+                "wm_motor"
+            ],
+            "appliances_supported": [
+                "TV",
+                "WashingMachine"
+            ],
+            "regions": [
+                "North",
+                "West"
+            ],
+            "availability_slots": [
+                {
+                    "start": "2025-09-25T09:30:00+05:30",
+                    "end": "2025-09-25T11:30:00+05:30"
+                },
+                {
+                    "start": "2025-09-25T15:00:00+05:30",
+                    "end": "2025-09-25T17:00:00+05:30"
+                }
+            ]
+        }
+    ],
+    "regions": [
+        {
+            "pincode_prefix": "5600xx",
+            "region_label": "Bengaluru Urban"
+        },
+        {
+            "pincode_prefix": "4000xx",
+            "region_label": "Mumbai Suburban"
+        },
+        {
+            "pincode_prefix": "1100xx",
+            "region_label": "Delhi"
+        }
+    ],
+    "appointments": []
+}
